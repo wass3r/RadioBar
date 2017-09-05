@@ -36,6 +36,8 @@ class RadioBar(rumps.App):
             new_menu.append(item)
 
         new_menu.append(rumps.separator)
+        new_menu.append(rumps.MenuItem('Stop Playback', callback=self.stop_playback))
+        new_menu.append(rumps.separator)
         new_menu.append(rumps.MenuItem('Quit RadioBar', callback=self.on_quit))
 
         self.menu = new_menu
@@ -58,6 +60,7 @@ class RadioBar(rumps.App):
     def reset_menu_states(self):
         for station in self.stations:
             self.menu[station].state = 0
+        self.menu['Stop Playback'].state = 0
 
     def play(self, sender):
         if self.menu[sender.title].state == 1:
@@ -69,6 +72,10 @@ class RadioBar(rumps.App):
         self.play_radio(station_url)
         print(u'playing %s' % station_url)
         sender.state = not sender.state
+
+    def stop_playback(self, sender):
+        self.player.stop()
+        sender.state = 1
 
     def on_quit(self, _):
         rumps.quit_application()
