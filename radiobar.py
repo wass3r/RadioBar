@@ -41,7 +41,6 @@ class RadioBar(rumps.App):
 
         for station in self.stations:
             item = rumps.MenuItem(station, callback=self.play)
-            item.state = 0
             new_menu.append(item)
 
         new_menu.append(rumps.separator)
