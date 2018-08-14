@@ -59,6 +59,7 @@ class RadioBar(rumps.App):
             j = r.json()
             for c in j['channels']:
                 self.stations.append(c['id'])
+            self.stations.sort()
         except requests.exceptions.RequestException as e:
             rumps.alert(e)
 
