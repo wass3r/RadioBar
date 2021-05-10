@@ -90,7 +90,7 @@ class RadioBar(rumps.App):
 
     def play(self, sender):
         # is there already a station playing or a paused station?
-        if self.active_station is not None and self.menu[self.active_station].state is not 0:
+        if self.active_station != None and self.menu[self.active_station].state != 0:
             self.reset_menu_state()
 
         self.active_station = sender.title
