@@ -4,15 +4,20 @@ Basic macOS menubar app to play SomaFM radio stations with help from [rumps](htt
 
 ## Development
 
-Make sure you have VLC installed, ie. `brew cask install vlc`.
+### Prerequisites
 
-Tested in Python 2.7.x and 3.x. To run, try:
-1. `pip install -r requirements.txt`
-2. `python radiobar.py`
+* Python 3.9.x
+* VLC 3.x (`brew cask install vlc`)
+* Install dependencies (`pip3 install -r requirements.txt`)
 
-To re-build the macOS app, run:
+#### Run
+
+1. `python3 radiobar.py`
+
+#### Build macOS app
+
 1. `rm -rf ./dist/ ./build/`
-2. `python setup.py py2app`
+1. `python3 setup.py py2app`
 
 ## License
 MIT
