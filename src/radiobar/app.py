@@ -19,7 +19,7 @@ class RadioBar(rumps.App):
 
     def __init__(self):
         super(RadioBar, self).__init__('RadioBar',
-                                       icon='radio-icon.png', template=True, quit_button=None)
+                                       icon='resources/radio-icon.png', template=True, quit_button=None)
         self.active_station = None
         self.player = vlc.MediaPlayer()
         self.stations = []
@@ -117,6 +117,5 @@ class RadioBar(rumps.App):
                 sender.state = 0
                 self.player.play()
 
-
-if __name__ == "__main__":
+def main():
     RadioBar().run()
