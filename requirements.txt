@@ -1,3 +1,0 @@
-rumps==0.4.0
-python-vlc==3.0.20123
-requests==2.32.3
