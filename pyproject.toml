@@ -16,8 +16,9 @@ version = "0.1.0"
 
 [tool.briefcase.app.radiobar]
 formal_name = "RadioBar"
-description = "internet radio controlled via menubar"
-icon = "radio-icon.png"
+description = "internet radio in your menubar"
+icon = "src/radiobar/resources/radiobar"
+icon_installer = "src/radiobar/resources/radiobar"
 sources = ['src/radiobar']
 requires = ["rumps", "python-vlc", "requests"]
 license.file = "LICENSE"

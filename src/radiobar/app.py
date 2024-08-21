@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import rumps
-import vlc
 import os
 import platform
 import requests
+import rumps
+import vlc
 
 # rumps.debug_mode(True)
 
@@ -19,7 +19,7 @@ class RadioBar(rumps.App):
 
     def __init__(self):
         super(RadioBar, self).__init__('RadioBar',
-                                       icon='resources/radio-icon.png', template=True, quit_button=None)
+                                       icon='resources/radiobar.png', template=True, quit_button=None)
         self.active_station = None
         self.player = vlc.MediaPlayer()
         self.stations = []
