@@ -3,7 +3,7 @@ name = "radiobar"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "3.12"
+python = "3.12.5"
 briefcase = "0.3.19"
 rumps = "0.4.0"
 python-vlc = "3.0.20123"
