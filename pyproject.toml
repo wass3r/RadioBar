@@ -12,9 +12,11 @@ requests = "2.32.3"
 [tool.briefcase]
 project_name = "radiobar"
 bundle = "com.wass3r.radiobar"
-version = "0.1.0"
+version = "0.2.0"
 
 [tool.briefcase.app.radiobar]
+# see https://briefcase.readthedocs.io/en/stable/reference/configuration.html
+
 formal_name = "RadioBar"
 description = "internet radio in your menubar"
 icon = "src/radiobar/resources/radiobar"
@@ -23,6 +25,17 @@ sources = ['src/radiobar']
 requires = ["rumps", "python-vlc", "requests"]
 license.file = "LICENSE"
 url = "https://github.com/wass3r/RadioBar/"
+
+[tool.briefcase.app.radiobar.macOS]
+# see https://briefcase.readthedocs.io/en/stable/reference/platforms/macOS/app.html
+
+# don't show dock icon
+info.LSBackgroundOnly = true
+info.LSUIElement = true
+
+# these are enabled by default by briefcase, but don't seem to be impacting functionality
+entitlement."com.apple.security.cs.allow-unsigned-executable-memory" = false
+entitlement."com.apple.security.cs.disable-library-validation" = false
 
 [build-system]
 requires = ["poetry-core"]
