@@ -633,13 +633,13 @@ unidecode = ["Unidecode (>=1.1.1)"]
 
 [[package]]
 name = "python-vlc"
-version = "3.0.20123"
+version = "3.0.21203"
 description = "VLC bindings for python."
 optional = false
 python-versions = "*"
 files = [
-    {file = "python-vlc-3.0.20123.tar.gz", hash = "sha256:244fbb9e392a0326841fca926d6d12a2a36c546982191f493f148fa19e66b1d4"},
-    {file = "python_vlc-3.0.20123-py3-none-any.whl", hash = "sha256:903b3dc3602804958837c69907f3d3485921ef8424c254c7314db3d6037f8d62"},
+    {file = "python_vlc-3.0.21203-py3-none-any.whl", hash = "sha256:1613451a31b692ec276296ceeae0c0ba82bfc2d094dabf9aceb70f58944a6320"},
+    {file = "python_vlc-3.0.21203.tar.gz", hash = "sha256:52d0544b276b11e58b6c0b748c3e0518f94f74b1b4cd328c83a59eacabead1ec"},
 ]
 
 [[package]]
@@ -864,4 +864,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.7"
-content-hash = "fffdf509e4dcb7973d77d245354ae667e97757a0990e267c7900abb86428ceca"
+content-hash = "a7ff7b8b4924a5c1543c695494c494fe3080f754f9b891f29e87248709a71d33"

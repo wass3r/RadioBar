@@ -6,7 +6,7 @@ package-mode = false
 python = "3.12.7"
 briefcase = "0.3.19"
 rumps = "0.4.0"
-python-vlc = "3.0.20123"
+python-vlc = "3.0.21203"
 requests = "2.32.3"
 
 [tool.briefcase]
