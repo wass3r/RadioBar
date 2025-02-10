@@ -55,13 +55,13 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "briefcase"
-version = "0.3.21"
+version = "0.3.22"
 description = "Tools to support converting a Python project into a standalone native application."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "briefcase-0.3.21-py3-none-any.whl", hash = "sha256:8afc394700565d3e69c1f6138e18406e3d0b2eefad075d19a39cccf935b96692"},
-    {file = "briefcase-0.3.21.tar.gz", hash = "sha256:03872036956cd352f8610437e50a8fad56535f12bb03eb8fe334eb558d200e7c"},
+    {file = "briefcase-0.3.22-py3-none-any.whl", hash = "sha256:0052221b91bb9da18e094c8f15d7d079129eaddc70dd0fefde24f35ba698b12c"},
+    {file = "briefcase-0.3.22.tar.gz", hash = "sha256:e8f8ffbab95def41273e48a58380497330e8903f2463f7179111e686a40cf29a"},
 ]
 
 [package.dependencies]
@@ -81,7 +81,7 @@ tomli_w = ">=1.0,<2.0"
 wheel = ">=0.37"
 
 [package.extras]
-dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.6.10)", "pre-commit (==4.0.1)", "pytest (==8.3.4)", "pytest-xdist (==3.6.1)", "setuptools_scm (==8.1.0)", "tox (==4.23.2)"]
+dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.6.10)", "pre-commit (==4.1.0)", "pytest (==8.3.4)", "pytest-xdist (==3.6.1)", "setuptools_scm (==8.1.0)", "tox (==4.24.1)"]
 docs = ["furo (==2024.8.6)", "pyenchant (==3.2.2)", "sphinx (==8.1.3)", "sphinx-autobuild (==2024.10.3)", "sphinx-copybutton (==0.5.2)", "sphinx_tabs (==3.4.7)", "sphinxcontrib-spelling (==8.0.1)"]
 
 [[package]]
@@ -951,4 +951,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "3.13.1"
-content-hash = "f9be69fbfa9c9ade6ec44758c48bacd32b9421a4169abe0b6707ca5b8542020d"
+content-hash = "c330ff7aa1a30bdaae93e2b713105dfed3ac20f2944c57a09ed29da18144209b"
