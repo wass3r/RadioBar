@@ -55,13 +55,13 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "briefcase"
-version = "0.3.22"
+version = "0.3.23"
 description = "Tools to support converting a Python project into a standalone native application."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "briefcase-0.3.22-py3-none-any.whl", hash = "sha256:0052221b91bb9da18e094c8f15d7d079129eaddc70dd0fefde24f35ba698b12c"},
-    {file = "briefcase-0.3.22.tar.gz", hash = "sha256:e8f8ffbab95def41273e48a58380497330e8903f2463f7179111e686a40cf29a"},
+    {file = "briefcase-0.3.23-py3-none-any.whl", hash = "sha256:784f921d3435cf0721c363f89b3639dd09081bba9035f29f00d97dda50e4e9a2"},
+    {file = "briefcase-0.3.23.tar.gz", hash = "sha256:240bc761b54619dd5fca0b817651de4c1705f91e6822165ca4b7ab22e04b79ea"},
 ]
 
 [package.dependencies]
@@ -73,16 +73,16 @@ httpx = ">=0.20,<1.0"
 packaging = ">=24.2"
 pip = ">=24.3"
 platformdirs = ">=2.6,<5.0"
-psutil = ">=5.9,<7.0"
+psutil = ">=5.9,<8.0"
 python-dateutil = ">=2.9.0.post0"
-rich = ">=12.6,<14.0"
+rich = ">=12.6,<15.0"
 setuptools = ">=60"
 tomli_w = ">=1.0,<2.0"
 wheel = ">=0.37"
 
 [package.extras]
-dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.6.10)", "pre-commit (==4.1.0)", "pytest (==8.3.4)", "pytest-xdist (==3.6.1)", "setuptools_scm (==8.1.0)", "tox (==4.24.1)"]
-docs = ["furo (==2024.8.6)", "pyenchant (==3.2.2)", "sphinx (==8.1.3)", "sphinx-autobuild (==2024.10.3)", "sphinx-copybutton (==0.5.2)", "sphinx_tabs (==3.4.7)", "sphinxcontrib-spelling (==8.0.1)"]
+dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.8.0)", "pre-commit (==4.2.0)", "pytest (==8.3.5)", "pytest-xdist (==3.6.1)", "setuptools_scm (==8.3.1)", "tox (==4.25.0)"]
+docs = ["furo (==2024.8.6)", "pyenchant (==3.2.2)", "sphinx (==8.2.3)", "sphinx-autobuild (==2024.10.3)", "sphinx-copybutton (==0.5.2)", "sphinx_tabs (==3.4.7)", "sphinxcontrib-spelling (==8.0.1)"]
 
 [[package]]
 name = "build"
@@ -961,4 +961,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "3.13.3"
-content-hash = "60871eeaf71a872eb8504fbbf9f14048395eb8f70ab19ca133b5957ee44722ee"
+content-hash = "c6d2fe13446bbe82bc87cc4c9780cdb067956ced0bab91e44ef786a1c911d616"
