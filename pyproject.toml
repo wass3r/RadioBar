@@ -7,7 +7,7 @@ python = "3.13.3"
 briefcase = "0.3.23"
 rumps = "0.4.0"
 python-vlc = "3.0.21203"
-requests = "2.32.3"
+requests = "2.32.4"
 
 [tool.briefcase]
 project_name = "radiobar"
