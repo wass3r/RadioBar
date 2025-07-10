@@ -58,14 +58,14 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "briefcase"
-version = "0.3.23"
+version = "0.3.24"
 description = "Tools to support converting a Python project into a standalone native application."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "briefcase-0.3.23-py3-none-any.whl", hash = "sha256:784f921d3435cf0721c363f89b3639dd09081bba9035f29f00d97dda50e4e9a2"},
-    {file = "briefcase-0.3.23.tar.gz", hash = "sha256:240bc761b54619dd5fca0b817651de4c1705f91e6822165ca4b7ab22e04b79ea"},
+    {file = "briefcase-0.3.24-py3-none-any.whl", hash = "sha256:16948ab5113fd0700e16243ee8875cf5b17f4e3d3378fae194aba5c943333469"},
+    {file = "briefcase-0.3.24.tar.gz", hash = "sha256:84d7cebbbad92d6899f8d9793004ac11ea5e60879b9f447d61dfa84751d1ffd2"},
 ]
 
 [package.dependencies]
@@ -82,10 +82,11 @@ python-dateutil = ">=2.9.0.post0"
 rich = ">=12.6,<15.0"
 setuptools = ">=60"
 tomli_w = ">=1.0,<2.0"
+truststore = {version = ">=0.10.1", markers = "python_version >= \"3.10\""}
 wheel = ">=0.37"
 
 [package.extras]
-dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.8.0)", "pre-commit (==4.2.0)", "pytest (==8.3.5)", "pytest-xdist (==3.6.1)", "setuptools_scm (==8.3.1)", "tox (==4.25.0)"]
+dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.9.2)", "pre-commit (==4.2.0)", "pytest (==8.4.1)", "pytest-xdist (==3.8.0)", "setuptools_scm (==8.3.1)", "tox (==4.27.0)"]
 docs = ["furo (==2024.8.6)", "pyenchant (==3.2.2)", "sphinx (==8.2.3)", "sphinx-autobuild (==2024.10.3)", "sphinx-copybutton (==0.5.2)", "sphinx_tabs (==3.4.7)", "sphinxcontrib-spelling (==8.0.1)"]
 
 [[package]]
@@ -966,6 +967,18 @@ files = [
 ]
 
 [[package]]
+name = "truststore"
+version = "0.10.1"
+description = "Verify certificates using native system trust stores"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "truststore-0.10.1-py3-none-any.whl", hash = "sha256:b64e6025a409a43ebdd2807b0c41c8bff49ea7ae6550b5087ac6df6619352d4c"},
+    {file = "truststore-0.10.1.tar.gz", hash = "sha256:eda021616b59021812e800fa0a071e51b266721bef3ce092db8a699e21c63539"},
+]
+
+[[package]]
 name = "types-python-dateutil"
 version = "2.9.0.20241206"
 description = "Typing stubs for python-dateutil"
@@ -1013,4 +1026,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "3.13.5"
-content-hash = "8fa919691de7f28643f385432716e03f9332851a210b0c9bbc5d5c8b96541e6e"
+content-hash = "7f0d4e3fd9ad15a4e342a15ae5cdf009cc3165640e5ab00f3b234b7314924539"
