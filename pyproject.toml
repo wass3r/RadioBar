@@ -4,7 +4,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "3.13.5"
-briefcase = "0.3.23"
+briefcase = "0.3.24"
 rumps = "0.4.0"
 python-vlc = "3.0.21203"
 requests = "2.32.4"
