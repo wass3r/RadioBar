@@ -58,14 +58,14 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "briefcase"
-version = "0.3.24"
+version = "0.3.25"
 description = "Tools to support converting a Python project into a standalone native application."
 optional = false
-python-versions = ">=3.9"
+python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "briefcase-0.3.24-py3-none-any.whl", hash = "sha256:16948ab5113fd0700e16243ee8875cf5b17f4e3d3378fae194aba5c943333469"},
-    {file = "briefcase-0.3.24.tar.gz", hash = "sha256:84d7cebbbad92d6899f8d9793004ac11ea5e60879b9f447d61dfa84751d1ffd2"},
+    {file = "briefcase-0.3.25-py3-none-any.whl", hash = "sha256:813bbf3d4d28080c115fa93ac35a11f050c8d394ad76b9a2e54a4be4773b5c8b"},
+    {file = "briefcase-0.3.25.tar.gz", hash = "sha256:0d3ca50714da8bed30e80ea33f322e6b8be7e80a1fb651814d98561aa269de72"},
 ]
 
 [package.dependencies]
@@ -82,12 +82,12 @@ python-dateutil = ">=2.9.0.post0"
 rich = ">=12.6,<15.0"
 setuptools = ">=60"
 tomli_w = ">=1.0,<2.0"
-truststore = {version = ">=0.10.1", markers = "python_version >= \"3.10\""}
+truststore = ">=0.10.1"
 wheel = ">=0.37"
 
 [package.extras]
-dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.9.2)", "pre-commit (==4.2.0)", "pytest (==8.4.1)", "pytest-xdist (==3.8.0)", "setuptools_scm (==8.3.1)", "tox (==4.27.0)"]
-docs = ["furo (==2024.8.6)", "pyenchant (==3.2.2)", "sphinx (==8.2.3)", "sphinx-autobuild (==2024.10.3)", "sphinx-copybutton (==0.5.2)", "sphinx_tabs (==3.4.7)", "sphinxcontrib-spelling (==8.0.1)"]
+dev = ["coverage-conditional-plugin (==0.9.0)", "coverage[toml] (==7.10.5)", "httpx-retries (==0.4.1)", "pre-commit (==4.3.0)", "pytest (==8.4.1)", "pytest-xdist (==3.8.0)", "setuptools_scm (==9.2.0)", "tox (==4.28.4)"]
+docs = ["furo (==2025.7.19)", "pyenchant (==3.2.2)", "sphinx (==8.2.3)", "sphinx-autobuild (==2024.10.3)", "sphinx-copybutton (==0.5.2)", "sphinx_tabs (==3.4.7)", "sphinxcontrib-spelling (==8.0.1)"]
 
 [[package]]
 name = "build"
@@ -1026,4 +1026,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "3.13.7"
-content-hash = "d26081dd1dd765960e1d330aea1cdee3525202ab4fec8d4453ee4b9ca68311f5"
+content-hash = "dd7ce9e5f26feb5b246e344d312625f6ccfffe96b2f2af1ff02d86747723bd9b"
