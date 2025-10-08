@@ -601,7 +601,7 @@ version = "25.2"
 description = "The PyPA recommended tool for installing Python packages."
 optional = false
 python-versions = ">=3.9"
-groups = ["main", "dev"]
+groups = ["main"]
 files = [
     {file = "pip-25.2-py3-none-any.whl", hash = "sha256:6d67a2b4e7f14d8b31b8b52648866fa717f45a1eb70e83002f4331d07e953717"},
     {file = "pip-25.2.tar.gz", hash = "sha256:578283f006390f85bb6282dffb876454593d637f5d1be494b5202ce4877e71f2"},
@@ -1025,5 +1025,5 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 
 [metadata]
 lock-version = "2.1"
-python-versions = "3.13.7"
-content-hash = "dd7ce9e5f26feb5b246e344d312625f6ccfffe96b2f2af1ff02d86747723bd9b"
+python-versions = "3.14.0"
+content-hash = "e88905eea99e8cb90187cc05bdb75b9d2ef58cedc20c8b3398d8ff924dccfdef"
