@@ -1,4 +1,4 @@
-# RadioBar
+# radiobar
 
 Basic macOS menubar app to play SomaFM radio stations with help from [rumps](https://github.com/jaredks/rumps), VLC, and Briefcase.
 
